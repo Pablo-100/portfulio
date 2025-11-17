@@ -1,0 +1,18 @@
+@use 'default/font' as *
+@use 'default/variables' as vars
+@use 'default/reset' as *
+@use 'default/default' as *
+
+@use 'components/header' as *
+@use 'components/footer' as *
+@use 'components/button' as *
+@use 'components/dropdown' as *
+@use 'components/mediaIcon' as *
+@use 'components/path' as *
+@use 'components/h2' as *
+@use 'components/container' as *
+@use 'components/logo' as *
+
+:root
+    @each $key, $value in vars.$colors
+        --#{$key}: hsl(#{$value})

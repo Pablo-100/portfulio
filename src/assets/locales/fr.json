@@ -1,0 +1,138 @@
+{
+    "header": {
+        "home": "accueil",
+        "projects": "projets",
+        "about": "à propos",
+        "contacts": "contacts"
+    },
+    "footer": {
+        "description": "Administrateur Réseaux & Systèmes et passionné de cybersécurité",
+        "copyright": "Tous droits réservés 2025. Réalisé par Mustapha Amine TBINI",
+        "media": "Réseaux sociaux"
+    },
+    "skills": {
+        "title": "compétences",
+        "programming": "Langages",
+        "database": "Bases de données",
+        "web": "Web",
+        "tools": "Outils",
+        "frameworks": "Bibliothèques",
+        "network": "Réseau",
+        "security": "Sécurité",
+        "monitoring": "Supervision",
+        "systems": "Systèmes",
+        "virtualization": "Virtualisation",
+        "automation": "Automatisation",
+        "monitoringTools": "Outils de supervision",
+        "lowLevel": "Bas niveau"
+    },
+    "projects": {
+        "chertnodes": {
+            "name": "ChertNodes",
+            "description": "Hébergement de serveurs Minecraft"
+        },
+        "protectx": {
+            "name": "ProtectX site",
+            "description": "Site pour le bot anti-crash Discord"
+        },
+        "khanswers": {
+            "name": "Réponses Kahoot",
+            "description": "Récupérer des réponses aux exercices Kahoot"
+        },
+        "kotikbot": {
+            "name": "KotikBot",
+            "description": "Site pour un bot Discord multi-fonctionnel"
+        },
+        "portfolio": {
+            "name": "Ce portfolio",
+            "description": "Mon portfolio personnel"
+        },
+        "blog": {
+            "name": "Mon blog",
+            "description": "Mon futur blog personnel"
+        },
+        "discordbot": {
+            "name": "Template bot Discord",
+            "description": "Démarrez un bot Discord en TypeScript en quelques secondes"
+        },
+        "chesspro": {
+            "name": "Chess PRO",
+            "description": "Site pour la visualisation des tournois d'échecs"
+        },
+        "ooku": {
+            "name": "Ooku",
+            "description": "Raccourcisseur d'URL avec authentification Discord"
+        },
+        "madhost": {
+            "name": "MadHost",
+            "description": "Hébergement de sites et serveurs Minecraft à bas prix"
+        },
+        "feedrum": {
+            "name": "Feedrum",
+            "description": "Réseau social ukrainien pour les développeurs"
+        },
+        "deplos": {
+            "name": "Deplos",
+            "description": "Hébergement de serveurs pour différents jeux"
+        },
+        "pixel-battle": {
+            "name": "Pixel Battle",
+            "description": "Clone de r/place"
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Mustapha Amine TBINI — <span>Network & Systems Administrator</span> et <span>passionné de cybersécurité</span>",
+                "description": "Je conçois des infrastructures réseau sécurisées, déploie des solutions SIEM et crée des outils de monitoring pour les opérations SOC.",
+                "button": "Mes contacts",
+                "status": "Ouvert aux collaborations et opportunités"
+            },
+            "quote": {
+                "text": "La sécurité est un processus continu — pas une case à cocher",
+                "author": "Docteur Who"
+            },
+            "projects": {
+                "title": "projets",
+                "button": "Voir tout"
+            },
+            "skills": {
+                "title": "compétences"
+            },
+            "about": {
+                "title": "à propos",
+                "description": [
+                    "Diplômé en Réseaux Informatiques et Services IT (ISET Radès), actuellement en train de poursuivre un Diplôme d'Ingénieur en Systèmes Informatiques et Sécurité des Réseaux (SSIR) à TEK-UP. Expérimenté dans le déploiement de SIEM et l'analyse des journaux en utilisant la pile ELK dans des environnements multi-OS (Ubuntu, Rocky Linux, Windows). Je me concentre sur l'infrastructure réseau, l'administration Linux/Windows et la surveillance de la cybersécurité. Passionné par les pratiques de l'équipe bleue, l'analyse des menaces et l'automatisation pour améliorer la détection et la réponse du SOC. Toujours motivé à renforcer la sécurité et à construire des infrastructures résilientes."
+                ],
+                "button": "Voir tout"
+            },
+            "contacts": {
+                "title": "contacts",
+                "text": "Je suis intéressé par des collaborations et des opportunités — contactez-moi par email ou LinkedIn.",
+                "media": "Contactez-moi ici",
+                "donate": "Faire un don"
+            }
+        },
+        "projects": {
+            "description": "Travaux et contributions sélectionnés",
+            "decent": "décent",
+            "small": "petit",
+            "inProgress": "en cours"
+        },
+        "about": {
+            "description": "Qui suis-je",
+            "about": {
+                "description": [
+                    "Ingénieur réseau et sécurité avec une expérience pratique du déploiement de SIEM basés sur ELK et de la configuration d'appareils réseau (Cisco/Huawei).",
+                    "Je suis passionné par l'automatisation des stacks de monitoring, l'intelligence sur les vulnérabilités et la sécurité opérationnelle (SOC)."
+                ]
+            },
+            "skills": { "title": "compétences" },
+            "facts": {
+                "title": "faits amusants",
+                "list": ["Basé à Tunis", "Participant CTF", "Amateur de Linux & Python"]
+            }
+        },
+        "contacts": { "description": "Comment me contacter" }
+    }
+}

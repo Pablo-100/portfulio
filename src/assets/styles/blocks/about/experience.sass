@@ -1,0 +1,53 @@
+@use '../../default/variables' as vars
+
+.experience
+    margin-top: 40px
+
+    &__list
+        display: grid
+        grid-template-columns: 1fr
+        gap: 22px
+
+.experience__item
+    padding: 14px 16px
+    border: 1px solid vars.$gray
+    border-radius: 6px
+
+    .experience__company
+        font-weight: 700
+        color: vars.$white
+        margin-bottom: 6px
+
+    .experience__dates
+        color: vars.$gray
+        font-size: 0.95rem
+        margin-bottom: 8px
+
+    .experience__description
+        color: vars.$gray
+        margin-bottom: 10px
+
+    .experience__highlights
+        list-style: disc
+        padding-left: 20px
+        color: vars.$gray
+        margin: 0
+
+.education__list
+    margin-top: 24px
+    display: grid
+    gap: 12px
+
+.education__item
+    border-left: 4px solid vars.$primary
+    padding-left: 12px
+    color: vars.$gray
+    border-radius: 3px
+
+    .education__school
+        font-weight: 700
+        color: vars.$white
+
+    .education__dates
+        color: vars.$gray
+        font-size: 0.95rem

@@ -1,0 +1,24 @@
+$colors: (
+    "primary": 287 60% 65%,
+    "primary-op": 287 60% 65% / 0.1,
+    "gray": 219 14% 71%,
+    "gray-op": 219 14% 71% / 0.1,
+    "background": 218 12% 18%,
+    "white": 0 0% 100%,
+);
+
+
+// expose common color variables for legacy usage like `vars.$white`
+$primary: map-get($colors, "primary");
+$primary-op: map-get($colors, "primary-op");
+$gray: map-get($colors, "gray");
+$gray-op: map-get($colors, "gray-op");
+$background: map-get($colors, "background");
+$white: map-get($colors, "white");
+
+
+$desktopScreen: 1024px;
+$tabletScreen: 768px;
+$mobileScreen: 500px;
+
+

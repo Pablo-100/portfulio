@@ -1,0 +1,118 @@
+{
+  "header": {
+    "home": "home",
+    "projects": "projects",
+    "about": "about",
+    "contacts": "contacts"
+  },
+  "footer": {
+    "description": "Network & Systems Administrator & Cybersecurity enthusiast based in Tunis, Tunisia",
+    "copyright": "Copyright 2025. Made by Mustapha Amine TBINI",
+    "media": "Social"
+  },
+  "skills": {
+    "programming": "Programming",
+    "database": "Databases",
+    "web": "Web",
+    "tools": "Tools",
+    "frameworks": "Frameworks",
+    "network": "Networking & Infrastructure",
+    "security": "Security & Pentesting",
+    "monitoring": "Monitoring & Logging",
+    "systems": "Systems",
+    "virtualization": "Virtualization",
+    "automation": "Automation & DevOps",
+    "monitoringTools": "Monitoring & Diagnostics",
+    "lowLevel": "Low-Level & Reverse Engineering"
+  },
+  "projects": {
+    "VOC---Vulnerability-Intelligence-Dashboard": {
+      "name": "VOC — Vulnerability Intelligence Dashboard",
+      "description": "CVE aggregation, scoring and monitoring with dashboards and automated alerts"
+    },
+    "task_manegemnt_sys": {
+      "name": "Task Management System",
+      "description": "Employee task management with role-based access and REST API back-end"
+    },
+    "synf_project": {
+      "name": "Synf Project — Symfony E‑Commerce",
+      "description": "Modern e‑commerce architecture with OAuth2 login and AJAX cart"
+    },
+    "LunaChat---Chatbot": {
+      "name": "LunaChat — Chatbot",
+      "description": "Conversational chatbot platform with Node.js and Python components"
+    },
+    "Plane_Management_Sys": {
+      "name": "Plane Management System",
+      "description": "Java application for fleet scheduling and maintenance"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Mustapha Amine TBINI — <span>Network & Systems Administrator</span> and <span>cybersecurity enthusiast</span>",
+        "description": "I design secure network infrastructures, deploy SIEM solutions and build monitoring tools for SOC operations.",
+        "button": "Contact ME",
+        "status": "Open to collaboration and job opportunities"
+      },
+      "quote": {
+        "text": "Security is a continuous process — not a checkbox",
+        "author": "Docteur Who"
+      },
+      "projects": {
+        "title": "projects",
+        "button": "View all"
+      },
+      "skills": {
+        "title": "skills",
+        "programming": "Programming",
+        "database": "Databases",
+        "web": "Web",
+        "tools": "Tools",
+        "frameworks": "Frameworks",
+        "network": "Network",
+        "security": "Security",
+        "monitoring": "Monitoring",
+        "systems": "Systems",
+        "virtualization": "Virtualization",
+        "automation": "Automation",
+        "monitoringTools": "Monitoring Tools",
+        "lowLevel": "Low-level"
+      },
+      "about": {
+        "title": "about",
+        "description": [
+          "Graduate in Computer Networks and IT Services (ISET Radès), currently pursuing an Engineering Degree in Computer Systems and Network Security (SSIR) at TEK-UP. Experienced in SIEM deployment and log analysis using the ELK Stack across multi-OS environments (Ubuntu, Rocky Linux, Windows). I focus on network infrastructure, Linux/Windows administration, and cybersecurity monitoring. Passionate about Blue Team practices, threat analysis, and automation to improve SOC detection and response. Always motivated to strengthen security and build resilient infrastructures."
+        ],
+        "button": "View all"
+      },
+      "contacts": {
+        "title": "contacts",
+        "text": "I’m interested in collaborations and job opportunities — contact me via email or LinkedIn.",
+        "media": "Message me here",
+        "donate": "Donate here"
+      }
+    },
+    "projects": {
+      "description": "Selected work and contributions",
+      "decent": "decent",
+      "small": "small",
+      "inProgress": "inProgress"
+    },
+    "about": {
+      "description": "Who am I",
+      "about": {
+        "description": [
+          "Network & Security engineer with practical experience in deploying ELK-based SIEMs and configuring network devices (Cisco/Huawei).",
+          "I am passionate about automating monitoring stacks, vulnerability intelligence and operational security (SOC)."
+        ]
+      },
+      "skills": { "title": "skills" },
+      "facts": {
+        "title": "fun-facts",
+        "list": ["Based in Tunis", "CTF participant", "Linux & Python lover"]
+      }
+    },
+    "contacts": { "description": "How to contact me" }
+  }
+}

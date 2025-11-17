@@ -1,0 +1,37 @@
+@use '../../default/variables' as vars
+
+.certifications
+    margin-top: 48px
+
+    &__title
+        color: vars.$white
+        margin-bottom: 12px
+
+.cert__list
+    display: grid
+    grid-template-columns: repeat(2, minmax(220px, 1fr))
+    gap: 12px
+
+.cert
+    background: transparent
+    padding: 10px 12px
+    border-radius: 6px
+    border: 1px solid vars.$gray
+
+    &__title
+        font-weight: 700
+        color: vars.$white
+        margin-bottom: 6px
+
+    &__meta
+        color: vars.$gray
+        font-size: 0.95rem
+        line-height: 1.2
+
+@media screen and (max-width: 820px)
+    .cert__list
+        grid-template-columns: 1fr
+
+@media screen and (min-width: 1100px)
+    .cert__list
+        grid-template-columns: repeat(3, minmax(220px, 1fr))
